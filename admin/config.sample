@@ -1,0 +1,31 @@
+<?php
+// HTTP
+define('HTTP_SERVER', 'http://23.236.55.124/admin/');
+define('HTTP_CATALOG', 'http://23.236.55.124/');
+
+// HTTPS
+define('HTTPS_SERVER', 'http://23.236.55.124/admin/');
+define('HTTPS_CATALOG', 'http://23.236.55.124/');
+
+// DIR
+define('DIR_APPLICATION', '/home/wwwroot/default/admin/');
+define('DIR_SYSTEM', '/home/wwwroot/default/system/');
+define('DIR_LANGUAGE', '/home/wwwroot/default/admin/language/');
+define('DIR_TEMPLATE', '/home/wwwroot/default/admin/view/template/');
+define('DIR_CONFIG', '/home/wwwroot/default/system/config/');
+define('DIR_IMAGE', '/home/wwwroot/default/image/');
+define('DIR_CACHE', '/home/wwwroot/default/system/cache/');
+define('DIR_DOWNLOAD', '/home/wwwroot/default/system/download/');
+define('DIR_UPLOAD', '/home/wwwroot/default/system/upload/');
+define('DIR_LOGS', '/home/wwwroot/default/system/logs/');
+define('DIR_MODIFICATION', '/home/wwwroot/default/system/modification/');
+define('DIR_CATALOG', '/home/wwwroot/default/catalog/');
+
+// DB
+define('DB_DRIVER', 'mpdo');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'killbill');
+define('DB_DATABASE', 'outdoor');
+define('DB_PORT', '3306');
+define('DB_PREFIX', 'oc_');
